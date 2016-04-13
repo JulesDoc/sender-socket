@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/udpsender.cpp 
+../src/fastSenderUDP.cpp 
 
 OBJS += \
-./src/udpsender.o 
+./src/fastSenderUDP.o 
 
 CPP_DEPS += \
-./src/udpsender.d 
+./src/fastSenderUDP.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
